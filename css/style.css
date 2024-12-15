@@ -1,0 +1,139 @@
+:root {
+    --mainColor: #ce6604;
+  }
+  
+
+  .navbar{
+    border: none;
+    background-color: hsla(46, 83%, 77%, 0.986);
+    border-radius: 0.1rem;
+    width: 100vw;
+    height: 4rem;
+
+}
+
+  body {
+    color: var(--mainColor);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+#html {
+  color: rgb(99, 21, 21);
+}
+#css {
+  color: rgb(99, 21, 21);
+}
+#js {
+  color: rgb(99, 21, 21);
+}
+
+
+.optionbtn{
+color: black;
+border-color: #ce6604;
+
+}
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--mainColor);
+    font-weight: 600;
+    letter-spacing: 0.9px;
+  }
+  
+  ::selection {
+    background-color: var(--mainColor);
+    color: #fff;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .mainColor {
+    color: var(--mainColor);
+  }
+  
+  .btn-main {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #dd8b0ffb;
+    --bs-btn-border-color: #dd8b0ffb;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #dd8b0ffb;
+    --bs-btn-hover-border-color: #dd8b0ffb;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #dd8b0ffb;
+    --bs-btn-active-border-color: #dd8b0ffb;
+  }
+  
+  main {
+    min-height: 100vh;
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  main nav {
+    box-shadow: 0px -8px 22px 4px rgba(0, 77, 165, 0.45);
+    background-color: hsla(46, 82%, 69%, 0.774) !important;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    color: var(--mainColor);
+    font-size: 1.375rem;
+  }
+  
+  main .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  main .form-control:focus {
+    border-color: #004da413;
+    box-shadow: 0 0 0 0.25rem rgba(228, 130, 1, 0.788);
+  }
+  
+  .boxContainer {
+    max-width: 600px;
+    margin: auto;
+    background-color: hsla(46, 82%, 74%, 0.774);
+    box-shadow: -6px 10px 15px -5px rgba(0, 77, 165, 0.45);
+    border: #004da413 1px solid;
+  }
+  
+  .swal-button {
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+  }
+  
+  .swal-button:not([disabled]):hover {
+    background-color: #dd8b0ffb;
+    border-color: #dd8b0ffb;
+  }
+  
+  @media screen and (max-width: 400px) {
+    :root {
+      font-size: 12px;
+    }
+  }
+
+  .resultWindow {
+    display: none;
+}
+.redText {
+    color: red;
+    font-weight: bold0;
+}
+.greenText {
+    color: green;
+    font-weight: 800;
+}
